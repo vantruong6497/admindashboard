@@ -1,0 +1,32 @@
+@media only screen and (max-width: 1200px) {
+    .content-body .card.card-box {
+        flex-wrap: wrap;
+    }
+    .content-body .card .icon-box {
+        width: 45%;
+        margin: 15px 15px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .nav-header {
+        width: 5em !important;
+        background: transparent;
+        top: 0;
+    }
+    li.nav-item.dropdown.notification_dropdown.header-profile {
+        display: none;
+    }
+    .content-body .card .icon-box {
+        width: 100%;
+    }
+    .card-body.d-flex.pd-7.pb-0 {
+        flex-wrap: wrap;
+    }
+    .w-55 {
+        width: 100%;
+    }
+    .content-item .right .content-box {
+        width: 100%;
+    }
+}
